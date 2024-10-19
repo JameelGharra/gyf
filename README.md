@@ -2,23 +2,23 @@
 
 ## Index 📑
 
-* [Project Overview](https://github.com/yourusername/gyf#project-overview)
-* [Demo Video](https://github.com/yourusername/gyf#demo-video)
-* [Features](https://github.com/yourusername/gyf#features)
-* [Technologies Used](https://github.com/yourusername/gyf#technologies-used)
-* [Encryption Process](https://github.com/yourusername/gyf#encryption-process-asymmetric-and-symmetric-keys) 🔐
-* [File Chunking](https://github.com/yourusername/gyf#file-chunking-in-network-file-transfer) 📦
-  - [Why We Use File Chunking](https://github.com/yourusername/gyf#why-we-use-file-chunking)
-  - [Chunk Size Considerations](https://github.com/yourusername/gyf#chunk-size-considerations)
-* [Project Structure](https://github.com/yourusername/gyf#project-structure) 📁
-* [Codebase](https://github.com/yourusername/gyf#codebase) 💻
-  - [Class Diagram](https://github.com/yourusername/gyf#class-diagram)
-  - [Class Descriptions](https://github.com/yourusername/gyf#class-descriptions)
-* [Setup and Running](https://github.com/yourusername/gyf#setup-and-running) 🚀
-  - [Server](https://github.com/yourusername/gyf#server)
-  - [Client](https://github.com/yourusername/gyf#client)
-* [Security Analysis](https://github.com/yourusername/gyf#security-analysis) 🛡️
-* [Acknowledgments](https://github.com/yourusername/gyf#acknowledgments) 🙏
+* [Project Overview](https://github.com/JameelGharra/gyf#project-overview)
+* [Demo Video](https://github.com/JameelGharra/gyf#demo-video)
+* [Features](https://github.com/JameelGharra/gyf#features)
+* [Technologies Used](https://github.com/JameelGharra/gyf#technologies-used)
+* [Encryption Process](https://github.com/JameelGharra/gyf#encryption-process-asymmetric-and-symmetric-keys) 🔐
+* [File Chunking](https://github.com/JameelGharra/gyf#file-chunking-in-network-file-transfer) 📦
+  - [Why We Use File Chunking](https://github.com/JameelGharra/gyf#why-we-use-file-chunking)
+  - [Chunk Size Considerations](https://github.com/JameelGharra/gyf#chunk-size-considerations)
+* [Project Structure](https://github.com/JameelGharra/gyf#project-structure) 📁
+* [Codebase](https://github.com/JameelGharra/gyf#codebase) 💻
+  - [Class Diagram](https://github.com/JameelGharra/gyf#class-diagram)
+  - [Class Descriptions](https://github.com/JameelGharra/gyf#class-descriptions)
+* [Setup and Running](https://github.com/JameelGharra/gyf#setup-and-running) 🚀
+  - [Server](https://github.com/JameelGharra/gyf#server)
+  - [Client](https://github.com/JameelGharra/gyf#client)
+* [Security Analysis](https://github.com/JameelGharra/gyf#security-analysis) 🛡️
+* [Acknowledgments](https://github.com/JameelGharra/gyf#acknowledgments) 🙏
   
 ## Project Overview
 This project is a client-server file transfer system designed with strong security principles. It demonstrates end-to-end encryption to safeguard files during transmission and ensures data integrity. The aim of the project to simulate real-world secure communication protocols.
