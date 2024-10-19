@@ -6,9 +6,9 @@
 * [Demo Video](https://github.com/JameelGharra/gyf#demo-video)
 * [Features](https://github.com/JameelGharra/gyf#features)
 * [Technologies Used](https://github.com/JameelGharra/gyf#technologies-used)
-* [Snapshots](https://github.com/JameelGharra/gyf/edit/main/README.md#snapshots) 📷
-  - [Initialization](https://github.com/JameelGharra/gyf/edit/main/README.md#initialization)⚡
-  - [File Transfer Process](https://github.com/JameelGharra/gyf/edit/main/README.md#file-transfer-process)📂
+* [Snapshots](https://github.com/JameelGharra/gyf#snapshots) 📷
+  - [Initialization](https://github.com/JameelGharra/gyf#initialization)⚡
+  - [File Transfer Process](https://github.com/JameelGharra/gyf#file-transfer-process)📂
 * [Encryption Process](https://github.com/JameelGharra/gyf#encryption-process-asymmetric-and-symmetric-keys) 🔐
 * [File Chunking](https://github.com/JameelGharra/gyf#file-chunking-in-network-file-transfer) 📦
   - [Why We Use File Chunking](https://github.com/JameelGharra/gyf#why-we-use-file-chunking)
