@@ -12,7 +12,7 @@
   - [Chunk Size Considerations](https://github.com/JameelGharra/gyf#chunk-size-considerations)
 * [Project Structure](https://github.com/JameelGharra/gyf#project-structure) 📁
 * [Codebase](https://github.com/JameelGharra/gyf#codebase) 💻
-  - [Class Diagram](https://github.com/JameelGharra/gyf#class-diagram)
+  - [Diagram](https://github.com/JameelGharra/gyf#diagram)
   - [Class Descriptions](https://github.com/JameelGharra/gyf#class-descriptions)
 * [Setup and Running](https://github.com/JameelGharra/gyf#setup-and-running) 🚀
   - [Server](https://github.com/JameelGharra/gyf#server)
@@ -87,6 +87,8 @@ static constexpr size_t CHUNK_SIZE = 4096; // 4 KB for memory management efficie
 - `docs/`: Project documentation and protocol specifications
 
 ## Codebase
+
+### Diagram
 ```mermaid
 classDiagram
     class Client {
@@ -161,7 +163,7 @@ classDiagram
     Client --> AESWrapper
     Client --> CRCHandler
 ```
-
+### Class Descriptions
 **Client**: The main class that orchestrates the client-side operations. It uses NetworkManager for communication, ProtocolHandler for creating requests and parsing responses, and CryptoManager for encryption operations.
 
 **NetworkManager**: Handles network communications, including establishing connections, sending requests, and receiving responses.
