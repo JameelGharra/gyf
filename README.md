@@ -6,6 +6,9 @@
 * [Demo Video](https://github.com/JameelGharra/gyf#demo-video)
 * [Features](https://github.com/JameelGharra/gyf#features)
 * [Technologies Used](https://github.com/JameelGharra/gyf#technologies-used)
+* [Snapshots](https://github.com/JameelGharra/gyf/edit/main/README.md#snapshots) 📷
+  - [Initialization](https://github.com/JameelGharra/gyf/edit/main/README.md#initialization)⚡
+  - [File Transfer Process](https://github.com/JameelGharra/gyf/edit/main/README.md#file-transfer-process)📂
 * [Encryption Process](https://github.com/JameelGharra/gyf#encryption-process-asymmetric-and-symmetric-keys) 🔐
 * [File Chunking](https://github.com/JameelGharra/gyf#file-chunking-in-network-file-transfer) 📦
   - [Why We Use File Chunking](https://github.com/JameelGharra/gyf#why-we-use-file-chunking)
@@ -39,6 +42,26 @@ Encryption:
 ## Technologies Used
 The server-side was implemented in Python, and used selectors to handle clients concurrently as well as cryptodome for cryptographic operations.
 The client-side was implemented in C++, used boost for networking and CryptoPP for cryptography.
+
+## Snapshots
+
+### Initialization
+
+Upon launching, the server initializes and displays the registered clients and transferred files stored in the database. Below is a snapshot of the **server initialization process**, demonstrating the setup of client metadata, file paths, and verification statuses:
+
+![Initialization](docs/initialization.PNG)
+
+This modular client-server architecture ensures that **client operations and file transmissions remain securely tracked**. The setup also facilitates encryption with **asymmetric RSA and symmetric AES keys**, ensuring end-to-end security during communication and storage.
+
+### File Transfer Process
+
+![File Transfer Process](docs/sendingpic.PNG)
+
+The snapshot above demonstrates the **file transfer workflow** between the client and the server, focusing on **encryption, packetized transmission, and integrity verification**. After re-establishing the connection and retrieving the **AES encryption key**, the client begins transmitting the `initialization.png` file.
+
+The transfer is split into **13 packets**, with each packet carrying 4386 bytes (except the final packet, containing the remaining 594 bytes). This **segmented transmission** ensures efficient and reliable delivery, even in the presence of network interruptions. The AES-encrypted file size matches the original size, confirming the encryption overhead remains minimal.
+
+Upon successful transmission, the server and client independently compute a **Cyclic Redundancy Check (CRC)**, a technique used to detect errors in transmitted data. The CRC values from both sides match `4165656872`, confirming the integrity of the transferred file. This seamless process showcases the robustness of the **client-server communication** in maintaining **security, accuracy, and resilience** during data transfers.
 
 ## Encryption Process: Asymmetric and Symmetric Keys
 This project utilizes a **hybrid encryption model**, combining the strengths of **asymmetric (RSA)** and **symmetric (AES)** encryption. RSA is used during the **initial handshake** to exchange a secure session key, ensuring that sensitive data, such as the AES key, is transmitted safely.
