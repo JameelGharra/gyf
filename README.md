@@ -107,7 +107,7 @@ static constexpr size_t CHUNK_SIZE = 4096; // 4 KB for memory management efficie
 ## Project Structure
 - `server/`: Contains all server-side Python scripts
 - `client/`: Contains all client-side C++ files
-- `docs/`: Project documentation and protocol specifications
+- `docs/`: Resources for documentation for e.g. images
 
 ## Codebase
 
@@ -220,7 +220,7 @@ classDiagram
 3. Build and run the client application
 
 ## Security Analysis
-A detailed security analysis of the communication protocol is available in the `docs/vulnerability analysis.pdf` file. This includes potential vulnerabilities, attack vectors, and proposed improvements.
+A detailed security analysis of the communication protocol is available in `vulnerability analysis.pdf` file. This includes potential vulnerabilities, attack vectors, and proposed improvements.
 
 ## Acknowledgments
 - Roy Mimran for providing the project requirements and guidance
